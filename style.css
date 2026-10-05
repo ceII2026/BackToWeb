@@ -1,0 +1,182 @@
+body {
+    background-color: #dfebf7;
+    background-image: repeating-linear-gradient(45deg, #dfebf7, #dfebf7 10px, #e6f0fa 10px, #e6f0fa 20px);
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    margin: 30px 0;
+    color: #333333;
+}
+
+.container {
+    width: 780px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 3px solid #4a8cf0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+.header {
+    background: linear-gradient(to bottom, #1e62de 0%, #3b8ef5 50%, #1e62de 100%);
+    padding: 25px;
+    color: #ffffff;
+    border-bottom: 3px solid #ff9900;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", sans-serif;
+    text-shadow: 2px 2px 0px #0b3fa3;
+    letter-spacing: -1px;
+}
+.logo span {
+    color: #ff9900;
+}
+.slogan {
+    font-size: 11px;
+    margin-top: 5px;
+    color: #d1e4ff;
+    font-style: italic;
+}
+
+.main-box {
+    padding: 20px;
+}
+
+h2 {
+    color: #1e62de;
+    font-size: 20px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 8px;
+    margin-top: 5px;
+}
+
+.alert-banner {
+    background: #fff4d1;
+    border: 1px solid #ffcc00;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 25px;
+    color: #b36b00;
+}
+
+.content-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.left-col, .right-col {
+    width: 50%;
+    background: #f2f7fd;
+    border: 1px solid #b5d3f8;
+    padding: 15px;
+}
+.left-col h3 { color: #cc6600; margin-top: 0; }
+.right-col h3 { color: #0066cc; margin-top: 0; }
+
+.glossy-btn {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom, #ffb347 0%, #ffcc00 50%, #ff9900 50%, #cc7a00 100%);
+    border: 2px solid #ffffff;
+    outline: 1px solid #ff9900;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #663300;
+    border-radius: 4px;
+}
+.glossy-btn:hover {
+    background: linear-gradient(to bottom, #ffcc00 0%, #ffee55 50%, #ffb300 50%, #ff9900 100%);
+}
+
+.payment-box {
+    background: #fff0f0;
+    border: 2px dashed #ff9999;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.payment-box h3 { color: #cc0000; margin-top: 0; margin-bottom: 10px; }
+.pay-desc { font-size: 12px; margin: 0 0 8px 0; line-height: 1.4; }
+.pay-status { font-size: 11px; color: #555; margin: 0; font-weight: bold; }
+
+.checkout-btn {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to bottom, #52c152 0%, #33a133 100%);
+    border: 2px solid #ffffff;
+    outline: 1px solid #227722;
+    color: #ffffff;
+    padding: 10px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #114411;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+.checkout-btn:hover {
+    background: linear-gradient(to bottom, #66dd66 0%, #44bc44 100%);
+}
+.checkout-btn span {
+    font-size: 11px;
+    font-weight: normal;
+    color: #e0ffe0;
+    display: block;
+    margin-top: 3px;
+}
+
+.code-box {
+    background: #ffffff;
+    border: 1px inset #aaa;
+    padding: 8px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    font-size: 11px;
+    color: #d11515;
+    text-align: center;
+    word-break: break-all;
+}
+
+.small-text {
+    font-size: 10px;
+    color: #666666;
+    margin-top: 8px;
+}
+
+.features-block {
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+}
+.features-block h4 { margin-top: 0; color: #333; font-size: 13px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 6px; }
+
+.footer {
+    background: #333333;
+    color: #aaaaaa;
+    padding: 15px;
+    font-size: 11px;
+    text-align: center;
+    border-top: 3px solid #ff9900;
+}
+
+.counter {
+    margin-top: 10px;
+}
+.counter-label {
+    margin-right: 5px;
+}
+.counter-num {
+    background: #000000;
+    color: #00ff00;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border: 1px solid #555;
+    margin-right: 1px;
+}
